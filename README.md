@@ -8,4 +8,5 @@ It includes Alpine Linux, and the following tools:
 
 * kubectl
 * aws-iam-authenticator
+* Docker
 * AWS CLI

@@ -25,7 +25,7 @@ RUN cp /tmp/kubectl . && \
 
 FROM alpine:3.9
 
-RUN apk add --update-cache --no-cache python3 && \
+RUN apk add --update-cache --no-cache docker python3 && \
     pip3 install --upgrade --progress-bar off awscli
 
 COPY --from=builder /tmp/prepared /usr/local/bin
